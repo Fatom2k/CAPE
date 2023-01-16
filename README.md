@@ -5,7 +5,7 @@ Suivre la doc d'install
 
 installer libvirt via 
 
-sudo -u cape poetry run extra/ins.sh
+sudo -u cape poetry run extra/poetry_libvirt_installer.sh
 
 parametrer les fichiers de config CAPE
 - routing.conf
