@@ -1,16 +1,18 @@
 # CAPE
 Repo for cape intallation helper
 
-Suivre la doc d'install
+Executer preinstall.sh
 
-installer libvirt via 
 
-sudo -u cape poetry run extra/poetry_libvirt_installer.sh
+retirer les app armor pour libvirt et qemu
+
+install mongodb ( [trust=yes] devant la ligne du csourcelist )
+
 
 parametrer les fichiers de config CAPE
 - routing.conf
 - cuckoo.conf
 
-retirer les app armor pour libvirt et qemu
+
 
 reboot
